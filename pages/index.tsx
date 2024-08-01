@@ -6,11 +6,11 @@ const Home: NextPage = () => {
   return (
     <div
       style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        height: "100vh",
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        height: '100vh',
       }}
     >
       <Head>
@@ -24,18 +24,6 @@ const Home: NextPage = () => {
       </Link>
       <Link href="/broken/two">
         <a>/broken/two</a>
-      </Link>
-      <Link href="/working/one">
-        <a>/working/one</a>
-      </Link>
-      <Link href="/working/two">
-        <a>/working/two</a>
-      </Link>
-      <Link href="/working/three">
-        <a>/working/three</a>
-      </Link>
-      <Link href="/working">
-        <a>/working</a>
       </Link>
     </div>
   )
