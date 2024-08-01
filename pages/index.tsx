@@ -22,9 +22,6 @@ const Home: NextPage = () => {
       <Link href="/broken/one">
         <a>/broken/one</a>
       </Link>
-      <Link href="/broken/two">
-        <a>/broken/two</a>
-      </Link>
     </div>
   )
 }
