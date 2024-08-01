@@ -19,8 +19,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Go to one of these pages, REFRESH, then click the /foo link.</h1>
-      <Link href="/broken/one">
-        <a>/broken/one</a>
+      <Link href="/broken">
+        <a>/broken</a>
       </Link>
     </div>
   )
