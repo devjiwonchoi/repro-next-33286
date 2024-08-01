@@ -20,7 +20,7 @@
     "dev": {
       "name": "dev",
       "command": "pnpm dev",
-      "runAtStart": true
+      "runAtStart": false
     },
     "build": {
       "name": "build",
