@@ -7,6 +7,7 @@ export default function Home() {
       <Link href="/foo">
         <a>/foo</a>
       </Link>
+      {/* This Red should be imported to be reproduced */}
       <Red />
     </>
   )
