@@ -8,10 +8,6 @@
     {
       "name": "Build",
       "command": "pnpm build"
-    },
-    {
-      "name": "Start",
-      "command": "pnpm start"
     }
   ],
 
@@ -30,7 +26,7 @@
     "start": {
       "name": "start",
       "command": "pnpm start",
-      "runAtStart": false
+      "runAtStart": true
     }
   }
 }
