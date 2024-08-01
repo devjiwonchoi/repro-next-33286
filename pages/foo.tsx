@@ -1,5 +1,4 @@
-import { Blue } from "@/components/blue"
-import dynamic from "next/dynamic"
+import dynamic from 'next/dynamic'
 
 const DynamicImportRedButton = dynamic<{}>(
   () => import('@/components/red').then((module) => module.Red),
@@ -32,8 +31,6 @@ const Foo = () => {
         not
       </p>
       <DynamicImportRedButton />
-      {/* this will never have the wrong background because it's not lazy loaded */}
-      <Blue />
     </div>
   )
 }
