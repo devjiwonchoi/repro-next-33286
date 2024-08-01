@@ -4,6 +4,14 @@
     {
       "name": "Install Dependencies",
       "command": "pnpm install"
+    },
+    {
+      "name": "Build",
+      "command": "pnpm build"
+    },
+    {
+      "name": "Start",
+      "command": "pnpm start"
     }
   ],
 
